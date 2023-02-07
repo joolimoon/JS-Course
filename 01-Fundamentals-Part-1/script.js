@@ -97,7 +97,7 @@ const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
 
-*/
+
 // 888888888888888888
 // Operator Precedence
 // 888888888888888888
@@ -114,3 +114,57 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+
+
+
+// 888888888888888888
+// Strings and Template Literals
+// 888888888888888888
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = "1991";
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log(
+  "string with \n\
+maltible\n\
+lines"
+);
+
+console.log(`string with 
+multible 
+lines`);
+
+*/
+
+// 888888888888888888
+// Taking Decisions: if / else Statements
+// 888888888888888888
+const age = 15;
+
+if (age >= 18) {
+  console.log(`Sarah can start driving license 🍅`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2011;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
