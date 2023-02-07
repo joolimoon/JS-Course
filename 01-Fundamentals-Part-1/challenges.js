@@ -160,4 +160,20 @@ if (score > 1 && dolphinsAverageScore >= minimumScore) {
   console.log("Sadly no team wins 😪");
 }
 
+
+
+
+8888888888888888888888888
+// Coding Challenge #3
+8888888888888888888888888
+
 */
+
+let bill = 275;
+
+bill >= 50 || bill <= 300 ? (tip = 0.15) : (tip = 0.2);
+console.log(
+  `The bill was ${bill}, the tip was ${bill * tip}, and the total value ${
+    bill + tip
+  }`
+);
